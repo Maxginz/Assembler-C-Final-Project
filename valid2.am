@@ -1,0 +1,6 @@
+.extern W
+.entry START
+	move $1, $2
+	add $3, $4, $5
+START: la W
+	hlt
